@@ -18,5 +18,6 @@ function strFunc(strA: string): number {
 }
 
 // Test cases
+console.log(strFunc('1,2,3')); 
 console.log(strFunc('1\n2,3')); 
-console.log(strFunc('//;\n1;2'));
+console.log(strFunc('//;\n1;2;3'));
